@@ -101,7 +101,7 @@ while True:
         elif selected_var == e_list: ek = ";:<>_"
         os.system('cls||clear')
         print(f"{Fore.BLUE}Şifrelenmiş: {Fore.RESET}{ek}{sifrele(yazi, selected_var)}")
-        time.sleep(5)
+        time.sleep(15)
         os.system('cls||clear')
 
     elif scm == 2:
